@@ -1,0 +1,143 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #f21d61;
+    color: #F7F5DD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .logo h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    padding : 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F7F5DD;
+    transition : transform 0.3s ease;
+}
+.nav-links a:hover{
+    background-color: #c0174d;
+}
+
+.auth-buttons button {
+    background-color:#f21d61;
+    color: #F7F5DD;
+    font-weight: bold;
+    border: 2px solid #F7F5DD;
+    border-radius: 20px;    
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.auth-buttons button:hover {
+    font-weight: 900;
+}
+
+.hero {
+    display : flex;
+    flex-direction: row;
+    /*background-image: url('curiebg.jpg');*/
+    background-size: cover;
+    background-position: center;
+    color: #BD8087;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero .hero-content{
+    width : 50%;
+    padding : 0px 50px;
+}
+.hero .hero-image{
+    width : 50%;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero h3{
+    text-align: left;
+    font-size: 20px;
+    padding : 0px;
+    margin :2px;
+    font-weight: bolder;
+}
+
+.hero p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    background-color: #F7F5DD;
+    color: #f21d61;
+    border: 2px solid #f21d61;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero-image img{
+    padding : 30px;
+    transition: transform 0.3s ease;
+}
+.hero-image img:hover{
+    transform: translatey(-20px);
+}
+
+.section {
+    text-align: center;
+    display : flex;
+    flex-direction: row;
+    /*align-self: center;*/
+    color: #BD8087;
+    padding: 40px;
+}
+.section .about-logo{
+    width : 50%;
+}
+.section .about-logo img{
+    width : 100%;
+}
+.section .about-desc{
+    width : 50%;
+}
+
+.section .about-desc h2{
+    padding : 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section .about-desc p{
+    font-size: 20px;
+    padding : 0px 40px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
